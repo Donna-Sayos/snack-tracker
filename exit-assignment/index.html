@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Snack Tracker</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Snack Tracker</h1>
+
+        <main>
+            <div id="error"></div>
+    
+            <form id="form">
+                <div id="inputWrapper">
+                    <label for="snackName">Name</label>
+                    <input name="name" type="text" placeholder="Snack name..." id="snackName" required>
+                </div>
+                <div>
+                    <label for="snackCategory">Category</label>
+                    <input name="category" type="text" placeholder="Snack category..." id="snackCategory" required>
+                </div>
+                <div>
+                    <label for="snackCategory">Calories</label>
+                    <input name="calories" min="0" type="number" placeholder="Snack calories..." id="snackCalories" required>
+                </div>
+                <button type="submit">Add Snack</button>
+            </form>
+    
+            <div id="listWrapper">
+                <input type="text" id="search" placeholder="Search for a snack...">
+                <ul id="list"></ul>
+            </div>
+        </main>
+
+        <script src="app.js" defer></script>
+    </body>
+</html>

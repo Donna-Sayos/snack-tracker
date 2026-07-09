@@ -1,0 +1,60 @@
+body {
+    background-color: #e8dfc8;
+}
+
+h1 {
+    text-align: center;
+}
+
+#error {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#inputWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+#listWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+li:hover {
+    background-color: #d8d8d8;
+}
+
+#search {
+    height: 15px;
+    width: 200px;
+    border: 1px solid #2e2b28
+}
+
+.eaten {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #eee;
+}

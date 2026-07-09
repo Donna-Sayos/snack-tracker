@@ -1,0 +1,19 @@
+{
+  "snacks": [
+    { "id": 1,  "name": "Granola Bar",      "category": "Bar",     "calories": 190 },
+    { "id": 2,  "name": "Apple",            "category": "Fruit",   "calories": 95  },
+    { "id": 3,  "name": "Greek Yogurt",     "category": "Dairy",   "calories": 130 },
+    { "id": 4,  "name": "Trail Mix",        "category": "Nuts",    "calories": 280 },
+    { "id": 5,  "name": "Dark Chocolate",   "category": "Sweet",   "calories": 170 },
+    { "id": 6,  "name": "Banana",           "category": "Fruit",   "calories": 105 },
+    { "id": 7,  "name": "Cheese Stick",     "category": "Dairy",   "calories": 80  },
+    { "id": 8,  "name": "Pretzels",         "category": "Chips",   "calories": 110 },
+    { "id": 9,  "name": "Protein Bar",      "category": "Bar",     "calories": 220 },
+    { "id": 10, "name": "Almonds",          "category": "Nuts",    "calories": 165 },
+    { "id": 11, "name": "Rice Cake",        "category": "Chips",   "calories": 35  },
+    { "id": 12, "name": "Orange",           "category": "Fruit",   "calories": 62  },
+    { "id": 13, "name": "Hummus Cup",       "category": "Dip",     "calories": 150 },
+    { "id": 14, "name": "Popcorn",          "category": "Chips",   "calories": 90  },
+    { "id": 15, "name": "Cookie",           "category": "Sweet",   "calories": 200 }
+  ]
+}
